@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-function App() {
+import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
+import { CTA, Brand, Navbar} from './components'
+
+import './App.css';
+import Signin from './components/signin/Signin';
+import Signup from './components/signup/Signup';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+      <div className='App'>
+        
+        <Switch>
+        
+        <Route exact path = "/">
+        <div className='gradient__bg'>
+          <Navbar /> </div>
+        <div className='gradient__bg'> <Header /></div>
+            <Brand />
+            <WhatGPT3 />
+            <Features />
+            <Possibility />
+            <CTA />
+            <Blog />
+            <Footer />
+        </Route>
+
+        <Route  path="/signin">
+            <Signin />
+        </Route>
+
+        <Route  path="/signup">
+            <Signup />
+        </Route>
+
+        </Switch>
     </div>
-  );
+    </Router>
+  )
 }
 
-export default App;
+export default App
