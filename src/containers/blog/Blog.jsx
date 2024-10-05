@@ -11,13 +11,23 @@ const Blog = () => {
       </div>
       <div className="blog-container">
         <div className="blog-container_groupA">
-        <Article imgUrl={blog01} date= "May 2024" title = "AEROOX-3 and Open AI is the future. Let us explore how it is"/> 
+          <a href="javascript:void(0)">
+          <Article imgUrl={blog01} date= "May 2024" title = "AEROOX-4 is a GPT-4 integrated platform and Open AI is the future. Let us explore how it is"/> 
+          </a>
         </div>
         <div className="blog-container_groupB">
-        <Article imgUrl={blog02} date= "May 2024" title = "AEROOX-3 and Open AI is the future. Let us explore how it is"/>
-        <Article imgUrl={blog03} date= "May 2024" title = "AEROOX-3 and Open AI is the future. Let us explore how it is"/>
-        <Article imgUrl={blog04} date= "May 2024" title = "AEROOX-3 and Open AI is the future. Let us explore how it is"/>
-        <Article imgUrl={blog05} date= "May 2024" title = "AEROOX-3 and Open AI is the future. Let us explore how it is"/>
+        <a href="javascript:void(0)">
+        <Article imgUrl={blog02} date= "May 2024" title = "AEROOX-4 is a GPT-4 integrated platform and Open AI is the future. Let us explore how it is"/>
+        </a>
+        <a href="javascript:void(0)">
+        <Article imgUrl={blog03} date= "May 2024" title = "AEROOX-4 is a GPT-4 integrated platform and Open AI is the future. Let us explore how it is"/>
+          </a>
+        <a href="javascript:void(0)">
+        <Article imgUrl={blog04} date= "May 2024" title = "AEROOX-4 is a GPT-4 integrated platform and Open AI is the future. Let us explore how it is"/>
+          </a>
+        <a href="javascript:void(0)">
+        <Article imgUrl={blog05} date= "May 2024" title = "AEROOX-4 is a GPT-4 integrated platform and Open AI is the future. Let us explore how it is"/>
+          </a>
         </div>
       </div>
     </div>

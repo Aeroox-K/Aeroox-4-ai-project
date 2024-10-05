@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
+import { Footer, Blog, Possibility, Features, WhatGPT3, Header, WhatGPT4 } from './containers';
 import { CTA, Brand, Navbar} from './components'
 
 import './App.css';
@@ -20,7 +20,7 @@ const App = () => {
           <Navbar /> </div>
         <div className='gradient__bg'> <Header /></div>
             <Brand />
-            <WhatGPT3 />
+            <WhatGPT4 />
             <Features />
             <Possibility />
             <CTA />
