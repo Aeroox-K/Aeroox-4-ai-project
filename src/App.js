@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header, WhatGPT4 } from './containers';
+import { Footer, Blog, Possibility, Features, WhatGPT4, Header } from './containers'
 import { CTA, Brand, Navbar} from './components'
 
 import './App.css';
@@ -33,6 +33,10 @@ const App = () => {
         </Route>
 
         <Route  path="/signup">
+            <Signup />
+        </Route>
+
+        <Route  path="/">
             <Signup />
         </Route>
 

@@ -36,6 +36,11 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .line__height{
+    line-height: 2ch;
+    letter-spacing: 10ch;
+  }
   
   .section__padding {
     padding: 4rem 6rem;

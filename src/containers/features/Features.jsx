@@ -28,7 +28,7 @@ const Features = () => {
         <h1 className="gradient__text">
         The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.
         </h1>
-        <p>Request early access</p>
+        <p><a href="#cta">Request early access</a></p>
       </div>
       <div className="features-container">
         {featuresData.map((item, index) => (

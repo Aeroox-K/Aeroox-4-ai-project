@@ -11,8 +11,8 @@ const Blog = () => {
       </div>
       <div className="blog-container">
         <div className="blog-container_groupA">
-          <a href="javascript:void(0)">
-          <Article imgUrl={blog01} date= "May 2024" title = "AEROOX-4 is a GPT-4 integrated platform and Open AI is the future. Let us explore how it is"/> 
+          <a href="https://briefit.vercel.app/">
+          <Article imgUrl={blog01} date= "August 2024" title = "Briefit - Simplify your reading with briefit summarizer. Our Briefit Summarizer, Summarizes Articles with OPENAI GPT-4"/> 
           </a>
         </div>
         <div className="blog-container_groupB">

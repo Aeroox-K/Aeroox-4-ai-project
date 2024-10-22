@@ -6,16 +6,16 @@ const WhatGPT4 = () => {
   return (
     <div className='whatgpt4 section__margin' id='wax3' >
       <div className="whatgpt4-feature">
-        <Feature  title = "What is AEROOX-4" text = "We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+        <Feature  title = "What is AEROOX-4" text = "We are a platform the explore the power of AI systems to build and develop useable projects for best use." />
       </div>
       <div className="whatgpt4-heading">
         <h1 className="gradient__text">Possibilities are beyond your imagination</h1>
-        <p>Explore the Library</p>
+        <p><a href="#blog">Explore the Library</a></p>
       </div>
       <div className="whatgpt4-container">
-        <Feature title = "Chatbot" text = "We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-        <Feature title = "Knowledgebase" text= "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments" />
-        <Feature title= "Education" text= "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments" />
+        <Feature title = "Chatbot" text = "Providing Interation of chatbot tool systems using OpenAI gpt-4 " />
+        <Feature title = "Knowledgebase" text= "Providing the best dependable and accurate knowledge base for research purposes." />
+        <Feature title= "Education" text= "Providing the best information base for learning and practical thinking and brainstorming." />
       </div>
     </div>
   )

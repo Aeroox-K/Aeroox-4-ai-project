@@ -22,7 +22,7 @@ const Signin = () => {
       <div className="text-center">
         <h1>Sign in to your account</h1>
         <p className="description">
-          Enter your email and password below to access your account.
+          Enter your email and password below to access your account
         </p>
       </div>
       <form className="form">

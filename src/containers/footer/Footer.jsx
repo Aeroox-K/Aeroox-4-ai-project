@@ -9,29 +9,29 @@ const Footer = () => (
     </div>
 
     <div className="footer-btn">
-      <p>Request Early Access</p>
+      <p><a href="/signin">Request Early Access</a></p>
     </div>
 
     <div className="footer-links">
+
       <div className="footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
         {/* <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p> */}
       </div>
-      <div className="footer-links_div">
-        <h4>Links</h4>
-        <p>Social Media</p>
-        <p>Counters</p>
+      
+      <div className="footer-links_links">
+          <div className="footer-links_div">
+            <h4>Company</h4>
+            <p>Terms & Conditions </p>
+            <p>Privacy Policy</p>
+          </div>
+
+          <div className="footer-links_div">
+            <h4>Get in touch</h4>
+            <p><a href="mailto:wisdomkayea16@gmail.com">wisdomkayea16@gmail.com</a></p>
+          </div>
       </div>
-      <div className="footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-      </div>
-      <div className="footer-links_div">
-        <h4>Get in touch</h4>
-        {/* <p>Crechterwoord K12 182 DK Alknjkcb</p> */}
-        <p>info@wisdomkayea.com</p>
-      </div>
+     
     </div>
 
     <div className="footer-copyright">
