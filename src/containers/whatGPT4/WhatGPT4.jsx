@@ -4,7 +4,7 @@ import { Feature } from '../../components';
 
 const WhatGPT4 = () => {
   return (
-    <div className='whatgpt4 section__margin' id='wax3' >
+    <div className='whatgpt4 wgp4-section__margin' id='wax3' >
       <div className="whatgpt4-feature">
         <Feature  title = "What is AEROOX-4" text = "We are a platform the explore the power of AI systems to build and develop useable projects for best use." />
       </div>
@@ -21,4 +21,4 @@ const WhatGPT4 = () => {
   )
 }
 
-export default WhatGPT4
+export default WhatGPT4;

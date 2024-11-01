@@ -1,22 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
 import './signup.css'
 import logo from '../../assets/logo-main.png';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { useState } from 'react';
+
 
 
 const Signup = () => {
-  
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
-      setPasswordVisible (!passwordVisible);
+    setPasswordVisible (!passwordVisible);
   };
 
   return (
-   <div>
+<div className='sign-container' >
+
+  <div className='sign-main'>
+    <div className='logo-container'>
     <div className='logo'> <Link to="/"><img src={logo} alt="logo" /></Link></div>
-    <div className="signup">
+    </div>
+    
+    <div className="signin">
     <div className="form-wrapper">
       <div className="text-center">
         <h1>Create an account</h1>
@@ -38,6 +44,7 @@ const Signup = () => {
           <div>
             <label for="password">Password</label>
           </div>
+
           <div className='forminput'>
           <input id="password" placeholder="********" type= {passwordVisible ? 'text' : 'password'  } pattern=".{8}" title="Must contain at least 8 or more characters" required/>
           <button className="eyebtn" onClick={togglePasswordVisibility}>
@@ -47,9 +54,10 @@ const Signup = () => {
               }
           </button>
           </div>
+          
         </div>
         
-        <button className='btn2' type="submit">
+        <button className='btn' type="submit">
           <Link to="/">Sign up</Link>
         </button>
       </form>
@@ -58,8 +66,11 @@ const Signup = () => {
     </div>
   </div>
   </div>
+
+</div>
+
   
   )
 }
 
-export default Signup
+export default Signup;

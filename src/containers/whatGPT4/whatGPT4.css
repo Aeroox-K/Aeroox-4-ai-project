@@ -23,6 +23,10 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.wgp4-section__margin {
+    margin: 4rem 2rem;
+  }
+
 .whatgpt4-feature {
     display: flex;
 }
@@ -86,6 +90,7 @@
 }
 
 @media screen and (max-width: 850px) {
+
     .whatgpt4-heading {
         flex-direction: column;
         align-items: flex-start;
@@ -95,6 +100,16 @@
     .whatgpt4-heading p {
         margin-top: 1rem;
     }
+
+    .whatgpt4 {
+        width: 300px;
+    }
+
+    .wgp4-section__margin {
+        margin: 4rem auto;
+      }
+
+
 }
 
 @media screen and (max-width: 650px) {
@@ -112,6 +127,11 @@
         font-size: 28px;
         line-height: 40px;
     }
+
+    .wgp4-section__margin {
+        margin: 4rem auto;
+      }
+    
 }
 
 @media screen and (max-width: 350px) {
@@ -120,4 +140,8 @@
         margin: 1rem 0;
         min-width: 100%;
     }
+
+    .wgp4-section__margin {
+        margin: 4rem auto;
+      }
 }

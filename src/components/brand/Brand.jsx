@@ -6,7 +6,7 @@ const Brand = () => {
   return (
     <div className="brand section__padding">
     <div>
-      <img src={google} alt='google' />
+      <img src={google} alt='googlegi' />
     </div>
     <div>
       <img src={slack} alt='slack' />
